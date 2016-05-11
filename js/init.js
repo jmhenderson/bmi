@@ -128,11 +128,12 @@
     // CONTACT PAGE
 
       function initialize() {
-        var myLatLong = new google.maps.LatLng(40.7556,-73.9797);
+        var myLatLong = new google.maps.LatLng(37.6295027,-82.1842371);
         var mapOptions = {
           center: myLatLong,
           scrollwheel: false,
-          zoom: 13
+          zoom: 15,
+        mapTypeId: google.maps.MapTypeId.TERRAIN
         };
         var map = new google.maps.Map(document.getElementById("map-canvas"),
             mapOptions);
@@ -140,7 +141,7 @@
         var marker = new google.maps.Marker({
             position: myLatLong,
             map: map,
-            title:"123 Broadway"
+            title:"Matewan WVa"
         });
 
       }

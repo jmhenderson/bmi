@@ -532,7 +532,7 @@ table.nav-tabs {
 
 #map-canvas {
   height: 400px;
-  margin-bottom: 100px;
+  margin-top: 60px;
   border-top: 1px solid rgba(0,0,0,.1);
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
@@ -1144,7 +1144,7 @@ label {
 
   body .section.clear { background-color: transparent; }
   .section.footer-padding {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
   }
   .section.bottom {
     margin-bottom: 300px;
