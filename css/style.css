@@ -954,11 +954,11 @@ label {
   .affix .navbar-collapse.in { background-color: transparent; }
 
 .navbar .navbar-nav { 
-  float: right;
+  float: left;
   margin: 0;
 }
 
-  .navbar .navbar-nav li { height: 50px; }
+  .navbar .navbar-nav li { height: 50px;}
     /* Menu Dropdown styles*/
     .navbar .navbar-nav li.dropdown { 
     }
