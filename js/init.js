@@ -128,12 +128,12 @@
     // CONTACT PAGE
 
       function initialize() {
-        var myLatLong = new google.maps.LatLng(37.6295027,-82.1842371);
+        var myLatLong = new google.maps.LatLng(37.622955, -82.166682);
         var mapOptions = {
           center: myLatLong,
           scrollwheel: false,
-          zoom: 15,
-        mapTypeId: google.maps.MapTypeId.TERRAIN
+          zoom: 17,
+        mapTypeId: google.maps.MapTypeId.SATELLITE
         };
         var map = new google.maps.Map(document.getElementById("map-canvas"),
             mapOptions);
