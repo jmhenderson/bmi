@@ -1528,8 +1528,8 @@ label {
   }
     .thumbnail img {
       position: relative;
-      top: 50%;
-      /*margin-top: -15px;*/
+      top: 18%;
+      margin-top: -15px;
       height: 90px;
 
       -webkit-transition: .3s;
